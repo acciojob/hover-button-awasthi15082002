@@ -1,16 +1,35 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Button with Hover Effect</title>
+    <style>
+        /* Initial button style */
+        #btn {
+            background-color: black;    /* Background color */
+            color: white;               /* Font color */
+            border-radius: 5px;         /* Border radius */
+            border: none;               /* No border */
+            font-size: 16px;            /* Font size */
+            padding: 10px 20px;         /* Padding inside the button */
+            cursor: pointer;           /* Cursor pointer on hover */
+            transition: all 0.3s ease;  /* Smooth transition for hover effect */
+        }
 
+        /* Hover state */
+        #btn:hover {
+            background-color: yellow;  /* Background color on hover */
+            color: black;              /* Font color on hover */
+            border-radius: 30px;       /* Border radius on hover */
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <form action="#">
+        <button type="submit" id="btn">Submit</button>
+    </form>
 
 </body>
-
 </html>
